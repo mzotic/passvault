@@ -1,0 +1,26 @@
+:root {
+  --bg: #0f172a; /* slate-900 like */
+  --fg: #e2e8f0; /* slate-200 */
+  --accent: #e11d48; /* rose-600 */
+  --accent2: #10b981; /* emerald-500 */
+  --muted: #94a3b8; /* slate-400 */
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Roboto, system-ui, -apple-system, Segoe UI, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background: var(--bg);
+  color: var(--fg);
+}
+
+a { color: inherit; }
+
+button {
+  font: inherit;
+}

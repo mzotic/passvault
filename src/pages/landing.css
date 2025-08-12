@@ -1,0 +1,54 @@
+.landing-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.hero {
+  padding-top: 48px;
+  text-align: center;
+}
+.hero h1 {
+  margin: 0;
+  font-size: 48px;
+  letter-spacing: 0.5px;
+}
+.hero p {
+  margin: 8px 0 24px;
+  color: var(--muted);
+}
+.outer-box {
+  position: relative;
+  width: 70vw;
+  height: 300px;
+  margin: 0 auto;
+  border: 2px solid var(--fg);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.inner-box {
+  position: absolute;
+  width: 40%;
+  height: 150px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid var(--fg);
+  border-radius: 8px;
+  background: rgba(2,6,23,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.status {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fca5a5;
+  font-size: 14px;
+}
+.hidden-typing p {
+  margin: 0;
+}

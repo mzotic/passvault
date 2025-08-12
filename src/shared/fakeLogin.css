@@ -1,0 +1,25 @@
+.fake-form {
+  width: 90%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.row { display: flex; flex-direction: column; gap: 6px; }
+label { font-weight: 600; font-size: 14px; }
+input {
+  padding: 10px 12px;
+  border: 1px solid var(--fg);
+  background: #0b1220;
+  color: var(--fg);
+  border-radius: 6px;
+}
+.btn {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 2px solid var(--fg);
+  background: transparent;
+  color: var(--fg);
+  cursor: pointer;
+}
+.btn:hover { background: var(--fg); color: var(--bg); }
